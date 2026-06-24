@@ -15,7 +15,7 @@ app = FastAPI(
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://retail-lens-ai.vercel.app/"
+    "https://retail-lens-ai.vercel.app"
 ]
 
 app.add_middleware(
